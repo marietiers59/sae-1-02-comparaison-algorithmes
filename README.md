@@ -36,6 +36,8 @@ et les compare aux classes de complexité de référence.
 (524 288 éléments, 64 opérations : ADDF 40 ms contre ADDL 153 ms ; REMF 36 ms contre REML 157 ms),
 car atteindre la fin impose un parcours complet par l'itérateur.
 
+![Temps de 64 opérations selon la taille de la structure : ADDL et REML montent à plus de 150 ms, ADDF et REMF restent sous 40 ms](docs/mesures-debut-ou-fin.png)
+
 ```
 periode2-complexite/src/      ADDF, ADDL, REMF, REML (démonstrations) et leurs classes *_mesure, Fusion, FusionMesure
 periode2-complexite/mesures/  fichiers CSV produits + notebook d'analyse
